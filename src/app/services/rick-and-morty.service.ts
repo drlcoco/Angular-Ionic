@@ -12,4 +12,8 @@ export class RickAndMortyService {
   getCharacters(params: any){
     return this.http.get(environment.baseUrl + environment.character, {params})
   }
+
+  getCharactersById(id: string){
+    return this.http.get(environment.baseUrl + environment.character + id)
+  }
 }

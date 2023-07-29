@@ -18,7 +18,7 @@
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col sizeLg="6" sizeMd="6" sizeSm="12" size="12" *ngFor="let char of characters">
+        <ion-col routerLink="/character-detail/{{char.id}}" sizeLg="6" sizeMd="6" sizeSm="12" size="12" *ngFor="let char of characters">
           <ion-card>
             <ion-grid>
               <ion-row>

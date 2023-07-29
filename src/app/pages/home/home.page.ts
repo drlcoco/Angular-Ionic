@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Character } from 'src/app/interfaces/character';
 import { RickAndMortyService } from 'src/app/services/rick-and-morty.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
